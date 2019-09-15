@@ -1,0 +1,24 @@
+{
+  "name": "projectcafe-2",
+  "version": "1.0.0",
+  "description": "UI test cases ",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "testcafe": "^1.5.0",
+    "testcafe-reporter-xunit": "^2.1.0"
+  },
+  "scripts": {
+    "test": "testcafe chrome Tests/**/* -e -r xunit:/tmp/test-results/res.xml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/001anj/projectCafe-2.git"
+  },
+  "author": "Anjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/001anj/projectCafe-2/issues"
+  },
+  "homepage": "https://github.com/001anj/projectCafe-2#readme"
+}
