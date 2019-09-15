@@ -1,5 +1,5 @@
 # projectCafe 2 (CircleCI and Jenkins)
-## E2E checkout process test case for bergfreunde
+## UI automated test for https://company.trivago.com/open-positions/
  
 ### Steps for running the test case 
 1. Create a repository in Github named "projectCafe" and clone it to your local directory
