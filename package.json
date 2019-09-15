@@ -9,7 +9,7 @@
     "testcafe-reporter-xunit": "^2.1.0"
   },
   "scripts": {
-    "test": "testcafe chrome Tests/**/* -e -r xunit:/tmp/test-results/res.xml"
+    "test": "testcafe chrome:headless Tests/**/* -e -r xunit:/tmp/test-results/res.xml"
   },
   "repository": {
     "type": "git",
