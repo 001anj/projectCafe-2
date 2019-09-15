@@ -42,7 +42,7 @@ test('Should check for heading, button, values for fourth batch of current open 
 // Navigate back to parent url after executing test in each job profile
     await t.navigateTo('https://company.trivago.com/open-positions/')
     await t.setPageLoadTimeout(1)
-    if(i > number) {
+    if(i > 71) {
         break;
     }
     } 
