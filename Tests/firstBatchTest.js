@@ -15,17 +15,14 @@ test('Should check for heading, button, values for first batch of current open j
     await t.click(tableElements.nth(i)) // Clicking job profile one by one 
    
 // Check whether heading is present in each job profile
-    await t.setPageLoadTimeout(1) 
     const h1Text = Selector('h1')
     await t.expect(h1Text.visible).eql(true)
 
 // Check whether job family is present in each job profile
-    await t.setPageLoadTimeout(1)
     const jobFamily = Selector('span[id="job_family"]').innerText;
     await t.expect(jobFamily.visible).notEql('')
 
 // Check whether required experience is present in each job profile
-    await t.setPageLoadTimeout(1)
     const experience = Selector('section.content div div:nth-child(2) p:nth-child(2) span').innerText;
     await t.expect(experience.visible).notEql('')
 
@@ -38,7 +35,6 @@ test('Should check for heading, button, values for first batch of current open j
     await t.expect(language.visible).notEql('')
 
 // Check whether apply button is present on each job profile  
-    await t.setPageLoadTimeout(1)
     const applyButton =  (Selector('.btn'))
     await t.expect(applyButton.visible).eql(true)
 
